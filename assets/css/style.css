@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Indie Flower', cursive;
+}
+
+.encabezado {
+	position: fixed;
+	width: 100%;
+	background-color: #FF7F7FFF;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+main{
+	background-image: url(../img/descarga.jpg);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+section {
+	display: inline-block;
+	width: 35%;
+	height: 35%;
+	background-color: #fff;
+	vertical-align: top;
+	margin: 4.5em;
+	padding: 1em;
+}
+.divTexto{
+	padding-top: 10px;
+	text-align: center;
+	color: #E8164EFF;
+}
+.textArea:focus{
+	outline: none;
+}
+
+.textArea{
+	width: 80%;
+	height: 2em;
+	color: #404040;
+	font-size: 15px;
+	padding: 1em;
+	border: none;
+	margin: 0 auto;
+	border-bottom: 2px solid #FF7FB6;
+}
+
+#btn {
+	background-color: #A0A0A0;
+	cursor: pointer;
+	margin: 1em auto;
+	width:70px;
+	height: 35px;
+	color: #FFF;
+	border-radius: 0.5em;
+}
+#cont{
+	border-radius: 0.5em;
+	width: 80%;
+	margin: 0 auto;
+	color: #000000;
+	text-align: left;
+	margin-bottom: 6em;
+}
+#cont div {
+	word-wrap: break-word;
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: yellow;
+}

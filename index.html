@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Twiter</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="encabezado">
+      <h1>Twitter</h1>
+    </div>
+  </header>
+
+  
+  <main> 
+    
+    <section class="divTexto">
+      <h2>Reto de Código</h2>
+      <p>Hola!! <br> Soy front-end developer jr.</p>
+      <p>CÓDIGO</p>     
+    </section>
+    
+
+    <!-- Sección de agregar twets-->
+    <section>
+      <textarea class="textArea" id="comment" placeholder="¿Qué estás pensando?"></textarea>
+      <button type="button" id="btn" onclick="add()">Twittear</button>
+      <span id="count">140</span>
+    </section>
+    
+
+    <!-- contenedor comentarios -->
+    <div id="cont"></div>
+  </main>
+ 
+
+
+
+  
+  <script src = "assets/js/app.js" >
+  </script>
+
+</body>
+</html>
